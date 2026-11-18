@@ -1,0 +1,704 @@
+.section1 {
+  background-color: #fcf2e8;
+  padding: 64px 0;
+}
+
+.head-of-s1 {
+  justify-content: center;
+  text-align: center;
+}
+
+.head-of-s1 p {
+  font-size: 12px;
+  color: #845326;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+}
+.head-of-s1 h2 {
+  font-size: 40px;
+  font-family:
+    Playfair Display,
+    serif;
+  margin: 8px 0;
+}
+
+.item {
+  width: calc((100% - 64px) / 3);
+  margin-top: 64px;
+  background-color: #fff;
+}
+.item h2 {
+  font-size: 20px;
+  margin-top: 24px;
+  font-weight: 600;
+  padding: 0 24px;
+}
+.item p {
+  font-size: 14px;
+  margin-top: 8px;
+  font-weight: 400;
+  padding: 0 24px;
+}
+.item .Roast-Profile {
+  display: flex;
+  margin-top: 8px;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.btn {
+  display: block;
+  width: calc(100% - 48px);
+  margin: 16px auto 24px auto;
+  padding: 12px 16px;
+  background-color: #f3eae0;
+  color: #2c1e16;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.img-of-s1 {
+  position: relative;
+}
+
+.badge-top {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background-color: #fcf2e8;
+  color: #845326;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.price-tag {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  background-color: #2c1e16;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.roast-bar {
+  height: 6px;
+  background-color: #f3eae0;
+  border-radius: 10px;
+  margin: 8px 24px 16px 24px;
+  overflow: hidden;
+}
+
+.roast-fill {
+  width: 75%;
+  height: 100%;
+  background-color: #845326;
+  border-radius: 10px;
+}
+
+.section2 {
+  background-color: #fcf2e8;
+  padding: 80px 0;
+}
+
+.s2-content {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+}
+
+.s2-image-box {
+  flex: 1;
+  position: relative;
+}
+
+.s2-image-box img {
+  width: 90%;
+  border-radius: 12px;
+  display: block;
+}
+
+.est-badge {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  background-color: #2c1e16;
+  color: #fff;
+  padding: 16px 24px;
+  border-radius: 8px;
+  text-align: center;
+  font-family:
+    Playfair Display,
+    serif;
+}
+
+.est-title {
+  display: block;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fcf2e8;
+}
+
+.est-subtitle {
+  display: block;
+  font-size: 12px;
+  color: #c8b9ae;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-top: 4px;
+}
+
+.s2-text-box {
+  flex: 1;
+}
+
+.s2-tag {
+  font-size: 12px;
+  color: #845326;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.s2-text-box h2 {
+  font-size: 40px;
+  font-family:
+    Playfair Display,
+    serif;
+  margin: 12px 0 16px 0;
+  color: #2c1e16;
+}
+
+.s2-desc {
+  font-size: 14px;
+  color: #5c4a42;
+  line-height: 1.6;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.s2-features {
+  margin: 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.s2-feature-item {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.s2-icon-box {
+  width: 40px;
+  height: 40px;
+  background-color: #f3eae0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 16px;
+}
+
+.s2-feature-item h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c1e16;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.s2-feature-item p {
+  font-size: 13px;
+  color: #6c5a52;
+  margin-top: 4px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.s2-btn {
+  background-color: #2c1e16;
+  color: #fff;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.section3 {
+  background-color: #fcf2e8;
+  padding: 80px 0 80px 0;
+}
+
+.s3-content {
+  background-color: #2c1e16;
+  border-radius: 16px;
+  padding: 100px 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.s3-tag {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #d4a373;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.s3-content h2 {
+  font-size: 48px;
+  font-family:
+    Playfair Display,
+    serif;
+  margin: 16px 0 12px 0;
+}
+
+.s3-content p {
+  font-size: 15px;
+  color: #c8b9ae;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.s3-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.s3-code-box {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.s3-join-btn {
+  background-color: #b08968;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.footer {
+  background-color: #1f140f;
+  color: #a89990;
+  padding: 64px 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.footer-col {
+  flex: 1;
+}
+
+.footer-logo {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.footer-about {
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-socials a {
+  width: 32px;
+  height: 32px;
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-col h3 {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+  color: #a89990;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footer-hours-title {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.footer-hours-time {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.footer-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #d4a373;
+  margin-top: 16px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #52b788;
+  border-radius: 50%;
+}
+
+.footer-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.footer-form input {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 14px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 13px;
+}
+
+.footer-form button {
+  background-color: #b08968;
+  color: #fff;
+  border: none;
+  padding: 0 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.footer-spam {
+  font-size: 11px;
+  color: #786960;
+}
+
+@media (max-width: 992px) {
+  .item {
+    width: calc((100% - 32px) / 2);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: calc(100% - 32px);
+  }
+
+  .head-of-s1 {
+    text-align: left;
+    padding: 0 16px;
+  }
+
+  .head-of-s1 h2 {
+    font-size: 32px;
+  }
+
+  .items {
+    gap: 24px;
+  }
+
+  .item {
+    width: 100%;
+    margin-top: 24px;
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid #efe6dd;
+  }
+
+  .img-of-s1 img {
+    border-radius: 12px;
+    display: block;
+  }
+
+  .badge-top {
+    display: none;
+  }
+
+  .price-tag {
+    top: 12px;
+    right: 12px;
+    bottom: auto;
+    background-color: #fcf2e8;
+    color: #2c1e16;
+    border-radius: 20px;
+    font-family:
+      Playfair Display,
+      serif;
+    font-weight: 700;
+    padding: 4px 14px;
+  }
+
+  .item h2 {
+    padding: 0;
+    margin-top: 16px;
+  }
+
+  .item p {
+    padding: 0;
+  }
+
+  .item .Roast-Profile,
+  .roast-bar {
+    display: none;
+  }
+
+  .btn {
+    width: 100%;
+    margin: 20px 0 0 0;
+    background-color: #2c1e16;
+    color: #fff;
+    padding: 14px;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 992px) {
+  .s2-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-grid {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .footer-col {
+    flex: 1 1 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* القسم الثاني: More Than Just Coffee */
+  .section2 {
+    padding: 48px 0;
+  }
+
+  .s2-text-box h2 {
+    font-size: 32px;
+  }
+
+  .est-badge {
+    bottom: 16px;
+    right: 16px;
+    padding: 12px 18px;
+  }
+
+  .est-title {
+    font-size: 18px;
+  }
+
+  /* القسم الثالث: عرض الخصم */
+  .section3 {
+    padding: 0 0 48px 0;
+  }
+
+  .s3-content {
+    padding: 40px 20px;
+    border-radius: 12px;
+  }
+
+  .s3-content h2 {
+    font-size: 32px;
+  }
+
+  .s3-actions {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .s3-code-box,
+  .s3-join-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* الفوتر (Footer) */
+  .footer {
+    padding: 48px 0;
+  }
+
+  .footer-grid {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .footer-col {
+    flex: 1 1 100%;
+  }
+}
+
+.visit-bar-section {
+  background-color: #fcf2e8;
+  padding: 48px 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.visit-bar-content h2 {
+  font-size: 32px;
+  font-family:
+    Playfair Display,
+    serif;
+  color: #2c1e16;
+  margin-bottom: 24px;
+}
+
+.visit-bar-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  align-items: center;
+}
+
+.visit-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.visit-icon {
+  font-size: 18px;
+  color: #845326;
+}
+
+.visit-item p {
+  font-size: 14px;
+  color: #5c4a42;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .visit-bar-section {
+    padding: 32px 0;
+  }
+
+  .visit-bar-content h2 {
+    font-size: 26px;
+    margin-bottom: 16px;
+  }
+
+  .visit-bar-items {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .visit-item p {
+    font-size: 13px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: calc(100% - 96px);
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+img {
+  transition:
+    transform 0.4s ease,
+    filter 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+  filter: brightness(1.05);
+}
+
+button,
+.btn,
+.s2-btn,
+.s3-join-btn,
+.phil-btn {
+  transition: all 0.3s ease;
+}
+
+button:hover,
+.btn:hover,
+.s2-btn:hover,
+.s3-join-btn:hover,
+.phil-btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+  box-shadow: 0 4px 12px rgba(44, 30, 22, 0.15);
+}
